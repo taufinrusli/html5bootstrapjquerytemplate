@@ -1,0 +1,445 @@
+/* ------------------------------------------- template -------------------------------------------------- */
+html                { height: 100%; }
+
+body                { min-height: 100%; }
+
+body, div, p, span, article, section, header, footer {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -- header tag template -- */
+
+h6                  { font-size: 1.4em; }
+
+h5                  { font-size: 1.6em; }
+
+h4                  { font-size: 1.8em; }
+
+h3                  { font-size: 2.2em; }
+
+h2                  { font-size: 2.6em; }
+
+h1                  { font-size: 3.0em; }
+
+img.centered
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* -- margin template -- */
+.margin-0           { margin: 0px;         }
+.margin-10          { margin: 10px;        }
+.margin-20          { margin: 20px;        }
+.margin-30          { margin: 30px;        }
+
+.margin-top-0       { margin-top: 0px;     }
+.margin-top-10      { margin-top: 10px;    }
+.margin-top-20      { margin-top: 20px;    }
+.margin-top-30      { margin-top: 30px;    }
+
+.margin-right-0     { margin-right: 0px;   }
+.margin-right-10    { margin-right: 10px;  }
+.margin-right-20    { margin-right: 20px;  }
+.margin-right-30    { margin-right: 30px;  }
+
+.margin-bottom-0    { margin-bottom: 0px;  }
+.margin-bottom-10   { margin-bottom: 10px; }
+.margin-bottom-20   { margin-bottom: 20px; }
+.margin-bottom-30   { margin-bottom: 30px; }
+
+.margin-left-0      { margin-left: 0px;    }
+.margin-left-10     { margin-left: 10px;   }
+.margin-left-20     { margin-left: 20px;   }
+.margin-left-30     { margin-left: 30px;   }
+
+/* -- padding template -- */
+.padding-0          { padding: 0px;         }
+.padding-10         { padding: 10px;        }
+.padding-20         { padding: 20px;        }
+.padding-30         { padding: 30px;        }
+
+.padding-top-0      { padding-top: 0px;     }
+.padding-top-10     { padding-top: 10px;    }
+.padding-top-20     { padding-top: 20px;    }
+.padding-top-30     { padding-top: 30px;    }
+
+.padding-right-0    { padding-right: 0px;   }
+.padding-right-10   { padding-right: 10px;  }
+.padding-right-20   { padding-right: 20px;  }
+.padding-right-30   { padding-right: 30px;  }
+
+.padding-bottom-0   { padding-bottom: 0px;  }
+.padding-bottom-10  { padding-bottom: 10px; }
+.padding-bottom-20  { padding-bottom: 20px; }
+.padding-bottom-30  { padding-bottom: 30px; }
+
+.padding-left-0     { padding-left: 0px;    }
+.padding-left-10    { padding-left: 10px;   }
+.padding-left-20    { padding-left: 20px;   }
+.padding-left-30    { padding-left: 30px;   }
+
+/* font weight */
+.font-weight-300,
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-400,
+.font-weight-normal {
+    font-weight: 400;
+}
+
+.font-weight-700,
+.font-weight-bold {
+    font-weight: 700;
+}
+
+/* visibility */
+.hidden             { display: none;         }
+
+/* element alignment */
+.inline-block       { display: inline-block; }
+
+.inline             { display: inline;       }
+
+.block              { display: block;        }
+
+/* border */
+.border-red         { border: 1px solid #FF0000; }
+
+
+/* --------------------------------------------- page ---------------------------------------------------- */
+header {
+    
+}
+
+aside {
+    
+}
+
+section {
+    
+}
+
+article {
+    
+}
+
+footer {
+    
+}
+
+/* content */
+#site-content {
+    
+}
+
+p { padding-bottom: 10px; }
+
+/* -------------------------------------------------- firefox hack --------------------------------------- */
+@-moz-document url-prefix() { 
+}
+
+/* ------------------------------------------- custom media ---------------------------------------------- */
+/* Bootstrap ---------- */
+/*   XS   */
+@media only screen 
+and (max-width : 767px) {
+    /* padding for XS screen only */
+    .padding-xs-0           { padding: 0px;         }
+    .padding-xs-10          { padding: 10px;        }
+    .padding-xs-20          { padding: 20px;        }
+    .padding-xs-30          { padding: 30px;        }
+    
+    .padding-top-xs-0       { padding-top: 0px;     }
+    .padding-top-xs-10      { padding-top: 10px;    }
+    .padding-top-xs-20      { padding-top: 20px;    }
+    .padding-top-xs-30      { padding-top: 30px;    }
+    
+    .padding-right-xs-0     { padding-right: 0px;   }
+    .padding-right-xs-10    { padding-right: 10px;  }
+    .padding-right-xs-20    { padding-right: 20px;  }
+    .padding-right-xs-30    { padding-right: 30px;  }
+    
+    .padding-bottom-xs-0    { padding-bottom: 0px;  }
+    .padding-bottom-xs-10   { padding-bottom: 10px; }
+    .padding-bottom-xs-20   { padding-bottom: 20px; }
+    .padding-bottom-xs-30   { padding-bottom: 30px; }
+    
+    .padding-left-xs-0      { padding-left: 0px;    }
+    .padding-left-xs-10     { padding-left: 10px;   }
+    .padding-left-xs-20     { padding-left: 20px;   }
+    .padding-left-xs-30     { padding-left: 30px;   }
+   
+    /* margin for XS screen only */
+    .margin-xs-0            { margin: 0px;          }
+    .margin-xs-10           { margin: 10px;         }
+    .margin-xs-20           { margin: 20px;         }
+    .margin-xs-30           { margin: 30px;         }
+    
+    .margin-top-xs-0        { margin-top: 0px;      }
+    .margin-top-xs-10       { margin-top: 10px;     }
+    .margin-top-xs-20       { margin-top: 20px;     }
+    .margin-top-xs-30       { margin-top: 30px;     }
+    
+    .margin-right-xs-0      { margin-right: 0px;    }
+    .margin-right-xs-10     { margin-right: 10px;   }
+    .margin-right-xs-20     { margin-right: 20px;   }
+    .margin-right-xs-30     { margin-right: 30px;   }
+    
+    .margin-bottom-xs-0     { margin-bottom: 0px;   }
+    .margin-bottom-xs-10    { margin-bottom: 10px;  }
+    .margin-bottom-xs-20    { margin-bottom: 20px;  }
+    .margin-bottom-xs-30    { margin-bottom: 30px;  }
+    
+    .margin-left-xs-0       { margin-left: 0px;     }
+    .margin-left-xs-10      { margin-left: 10px;    }
+    .margin-left-xs-20      { margin-left: 20px;    }
+    .margin-left-xs-30      { margin-left: 30px;    }
+   
+    /* Styles */
+}
+
+/*   SM   */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 991px) {
+    .container              { width: 100%;          }
+    
+    /* padding for SM screen only */
+    .padding-sm-0           { padding: 0px;         }
+    .padding-sm-10          { padding: 10px;        }
+    .padding-sm-20          { padding: 20px;        }
+    .padding-sm-30          { padding: 30px;        }
+    
+    .padding-top-sm-0       { padding-top: 0px;     }
+    .padding-top-sm-10      { padding-top: 10px;    }
+    .padding-top-sm-20      { padding-top: 20px;    }
+    .padding-top-sm-30      { padding-top: 30px;    }
+    
+    .padding-right-sm-0     { padding-right: 0px;   }
+    .padding-right-sm-10    { padding-right: 10px;  }
+    .padding-right-sm-20    { padding-right: 20px;  }
+    .padding-right-sm-30    { padding-right: 30px;  }
+    
+    .padding-bottom-sm-0    { padding-bottom: 0px;  }
+    .padding-bottom-sm-10   { padding-bottom: 10px; }
+    .padding-bottom-sm-20   { padding-bottom: 20px; }
+    .padding-bottom-sm-30   { padding-bottom: 30px; }
+    
+    .padding-left-sm-0      { padding-left: 0px;    }
+    .padding-left-sm-10     { padding-left: 10px;   }
+    .padding-left-sm-20     { padding-left: 20px;   }
+    .padding-left-sm-30     { padding-left: 30px;   }
+    
+    /* margin for SM screen only */
+    .margin-sm-0            { margin: 0px;          }
+    .margin-sm-10           { margin: 10px;         }
+    .margin-sm-20           { margin: 20px;         }
+    .margin-sm-30           { margin: 30px;         }
+    
+    .margin-top-sm-0        { margin-top: 0px;      }
+    .margin-top-sm-10       { margin-top: 10px;     }
+    .margin-top-sm-20       { margin-top: 20px;     }
+    .margin-top-sm-30       { margin-top: 30px;     }
+    
+    .margin-right-sm-0      { margin-right: 0px;    }
+    .margin-right-sm-10     { margin-right: 10px;   }
+    .margin-right-sm-20     { margin-right: 20px;   }
+    .margin-right-sm-30     { margin-right: 30px;   }
+    
+    .margin-bottom-sm-0     { margin-bottom: 0px;   }
+    .margin-bottom-sm-10    { margin-bottom: 10px;  }
+    .margin-bottom-sm-20    { margin-bottom: 20px;  }
+    .margin-bottom-sm-30    { margin-bottom: 30px;  }
+    
+    .margin-left-sm-0       { margin-left: 0px;     }
+    .margin-left-sm-10      { margin-left: 10px;    }
+    .margin-left-sm-20      { margin-left: 20px;    }
+    .margin-left-sm-30      { margin-left: 30px;    }
+   
+    /* Styles */
+}
+
+/*   MD   */
+@media only screen 
+and (min-width : 992px) 
+and (max-width : 1199px) {
+    .container              { width: 100%;          }
+    
+    /* padding for MD screen only */
+    .padding-md-0           { padding: 0px;         }
+    .padding-md-10          { padding: 10px;        }
+    .padding-md-20          { padding: 20px;        }
+    .padding-md-30          { padding: 30px;        }
+    
+    .padding-top-md-0       { padding-top: 0px;     }
+    .padding-top-md-10      { padding-top: 10px;    }
+    .padding-top-md-20      { padding-top: 20px;    }
+    .padding-top-md-30      { padding-top: 30px;    }
+    
+    .padding-right-md-0     { padding-right: 0px;   }
+    .padding-right-md-10    { padding-right: 10px;  }
+    .padding-right-md-20    { padding-right: 20px;  }
+    .padding-right-md-30    { padding-right: 30px;  }
+    
+    .padding-bottom-md-0    { padding-bottom: 0px;  }
+    .padding-bottom-md-10   { padding-bottom: 10px; }
+    .padding-bottom-md-20   { padding-bottom: 20px; }
+    .padding-bottom-md-30   { padding-bottom: 30px; }
+    
+    .padding-left-md-0      { padding-left: 0px;    }
+    .padding-left-md-10     { padding-left: 10px;   }
+    .padding-left-md-20     { padding-left: 20px;   }
+    .padding-left-md-30     { padding-left: 30px;   }
+    
+    /* margin for MD screen only */
+    .margin-md-0            { margin: 0px;          }
+    .margin-md-10           { margin: 10px;         }
+    .margin-md-20           { margin: 20px;         }
+    .margin-md-30           { margin: 30px;         }
+    
+    .margin-top-md-0        { margin-top: 0px;      }
+    .margin-top-md-10       { margin-top: 10px;     }
+    .margin-top-md-20       { margin-top: 20px;     }
+    .margin-top-md-30       { margin-top: 30px;     }
+    
+    .margin-right-md-0      { margin-right: 0px;    }
+    .margin-right-md-10     { margin-right: 10px;   }
+    .margin-right-md-20     { margin-right: 20px;   }
+    .margin-right-md-30     { margin-right: 30px;   }
+    
+    .margin-bottom-md-0     { margin-bottom: 0px;   }
+    .margin-bottom-md-10    { margin-bottom: 10px;  }
+    .margin-bottom-md-20    { margin-bottom: 20px;  }
+    .margin-bottom-md-30    { margin-bottom: 30px;  }
+    
+    .margin-left-md-0       { margin-left: 0px;     }
+    .margin-left-md-10      { margin-left: 10px;    }
+    .margin-left-md-20      { margin-left: 20px;    }
+    .margin-left-md-30      { margin-left: 30px;    }
+    
+    /* Styles */
+}
+
+/*   LG   */
+@media only screen 
+and (min-width : 1200px) {
+    /* padding for LG screen only */
+    .padding-lg-0           { padding: 0px;         }
+    .padding-lg-10          { padding: 10px;        }
+    .padding-lg-20          { padding: 20px;        }
+    .padding-lg-30          { padding: 30px;        }
+    
+    .padding-top-lg-0       { padding-top: 0px;     }
+    .padding-top-lg-10      { padding-top: 10px;    }
+    .padding-top-lg-20      { padding-top: 20px;    }
+    .padding-top-lg-30      { padding-top: 30px;    }
+    
+    .padding-right-lg-0     { padding-right: 0px;   }
+    .padding-right-lg-10    { padding-right: 10px;  }
+    .padding-right-lg-20    { padding-right: 20px;  }
+    .padding-right-lg-30    { padding-right: 30px;  }
+    
+    .padding-bottom-lg-0    { padding-bottom: 0px;  }
+    .padding-bottom-lg-10   { padding-bottom: 10px; }
+    .padding-bottom-lg-20   { padding-bottom: 20px; }
+    .padding-bottom-lg-30   { padding-bottom: 30px; }
+    
+    .padding-left-lg-0      { padding-left: 0px;    }
+    .padding-left-lg-10     { padding-left: 10px;   }
+    .padding-left-lg-20     { padding-left: 20px;   }
+    .padding-left-lg-30     { padding-left: 30px;   }
+    
+    /* margin for LG screen only */
+    .margin-lg-0            { margin: 0px;          }
+    .margin-lg-10           { margin: 10px;         }
+    .margin-lg-20           { margin: 20px;         }
+    .margin-lg-30           { margin: 30px;         }
+    
+    .margin-top-lg-0        { margin-top: 0px;      }
+    .margin-top-lg-10       { margin-top: 10px;     }
+    .margin-top-lg-20       { margin-top: 20px;     }
+    .margin-top-lg-30       { margin-top: 30px;     }
+    
+    .margin-right-lg-0      { margin-right: 0px;    }
+    .margin-right-lg-10     { margin-right: 10px;   }
+    .margin-right-lg-20     { margin-right: 20px;   }
+    .margin-right-lg-30     { margin-right: 30px;   }
+    
+    .margin-bottom-lg-0     { margin-bottom: 0px;   }
+    .margin-bottom-lg-10    { margin-bottom: 10px;  }
+    .margin-bottom-lg-20    { margin-bottom: 20px;  }
+    .margin-bottom-lg-30    { margin-bottom: 30px;  }
+    
+    .margin-left-lg-0       { margin-left: 0px;     }
+    .margin-left-lg-10      { margin-left: 10px;    }
+    .margin-left-lg-20      { margin-left: 20px;    }
+    .margin-left-lg-30      { margin-left: 30px;    }
+   
+    /* Styles */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
