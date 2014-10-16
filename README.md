@@ -15,7 +15,7 @@ Home Page: [Coming Soon]
 
 <section title="Change Log">
 <h3>Change Log</h3>
-<strong>v 0.1, 2014-10-14</strong>
+<strong>v 0.1.0, 2014-10-14</strong>
 <br />
 Commit the first version of the template. The template includes
 <ul>
